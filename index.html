@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="resultContainer">
+                <h1 id="result" class="result">0</h1>
+            </div>
+            <div class="buttonsContainer">
+                <div class="button dark">%</div>
+                <div class="button dark">CE</div>
+                <div class="button dark" onclick="clearText()">C</div>
+                <div class="button dark" onclick="addText(``)">⌫</div>
+                <div class="button dark" onclick="addText(``)">⅟𝑥</div>
+                <div class="button dark" onclick="addText(`**`)">𝑥²</div>
+                <div class="button dark">√𝑥</div>
+                <div class="button dark" onclick="addText(`/`)">÷</div>
+                <div class="button" onclick="addText(`7`)">7</div>
+                <div class="button" onclick="addText(`8`)">8</div>
+                <div class="button" onclick="addText(`9`)">9</div>
+                <div class="button dark" onclick="addText(`*`)">×</div>
+                <div class="button" onclick="addText(`4`)">4</div>
+                <div class="button" onclick="addText(`5`)">5</div>
+                <div class="button" onclick="addText(`6`)">6</div>
+                <div class="button dark" onclick="addText(`-`)">-</div>
+                <div class="button" onclick="addText(`1`)">1</div>
+                <div class="button" onclick="addText(`2`)">2</div>
+                <div class="button" onclick="addText(`3`)">3</div>
+                <div class="button dark" onclick="addText(`+`)">+</div>
+                <div class="button" onclick="addText(``)">+/-</div>
+                <div class="button" onclick="addText(`0`)">0</div>
+                <div class="button" onclick="addText(`.`)">.</div>
+                <div class="button dark" onclick="calculate()">=</div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
