@@ -177,18 +177,16 @@
     .buttonsContainer {
       height: 60%;
       display: grid;
-      grid-template-columns: repeat(5, 1fr); /* default */
+      grid-template-columns: repeat(4, 1fr); /* default */
       gap: 0.2rem;
       margin-top: 0;
       padding: 0.2em;
+      min-height: auto;
+      overflow: scroll;
     }
 
-    @media only screen and (max-width: 1024px), only screen and (max-height: 620px) {
-      .buttonsContainer {
-        grid-template-columns: repeat(4, 1fr);
-      }
-    }
-  
+
+
 
 
 
