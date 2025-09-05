@@ -177,13 +177,14 @@
     .buttonsContainer {
       height: 60%;
       display: grid;
-      grid-template-columns: repeat(4, 1fr); /* default */
+      grid-template-columns: repeat(4, 1fr); 
       gap: 0.2rem;
       margin-top: 0;
       padding: 0.2em;
       min-height: auto;
       overflow: scroll;
     }
+
 
 
 
