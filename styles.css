@@ -29,6 +29,7 @@
     body {
       color: var(--text-color);
       background-color: var(--bg-color);
+      min-height: 410px;
     }
 
     .container {
@@ -82,7 +83,7 @@
     .buttonsContainer {
       height: 60%;
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(5, 1fr);
       gap: 0.2rem;
       margin-top: 0;
       padding: 0.2em;
@@ -177,3 +178,20 @@
         align-items: center;
         justify-content: center;
     }
+
+
+
+
+@media only screen and (max-height: 620px) {
+  .buttonsContainer {
+      grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+  .buttonsContainer {
+      grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+
