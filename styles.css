@@ -183,12 +183,8 @@
       padding: 0.2em;
     }
     
-    @media only screen and (max-width: 1024px), 
-           only screen and (max-height: 620px) {
-      .buttonsContainer {
-        grid-template-columns: repeat(4, 1fr);
-      }
-    }
+  
+
 
 
 
