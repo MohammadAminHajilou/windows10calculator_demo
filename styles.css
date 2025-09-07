@@ -30,6 +30,7 @@
       color: var(--text-color);
       background-color: var(--bg-color);
       min-height: 410px;
+      overflow: scroll;
     }
 
     .container {
@@ -182,8 +183,8 @@
       margin-top: 0;
       padding: 0.2em;
       min-height: auto;
-      overflow: scroll;
     }
+
 
 
 
